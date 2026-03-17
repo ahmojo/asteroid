@@ -12,8 +12,9 @@ Game ends when the player collides with an asteroid
 
 ### How to Play
 
-Rotate: A / D (or left/right arrow keys)
-Thrust: W (or up arrow key)
+Rotate: A / D 
+Thrust: W 
+Backwards: S
 Shoot: Space
 
 ### Requirements
