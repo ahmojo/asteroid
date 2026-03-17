@@ -13,8 +13,11 @@ Game ends when the player collides with an asteroid
 ### How to Play
 
 Rotate: A / D 
+
 Thrust: W 
+
 Backwards: S
+
 Shoot: Space
 
 ### Requirements
@@ -26,4 +29,5 @@ Pygame
 ### Installation
 
 pip install pygame
+
 python main.py
