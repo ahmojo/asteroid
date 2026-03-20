@@ -27,7 +27,21 @@ Python version must be under version 3.14 because pygame doesn't support 3.14. C
 
 Pygame
 
-### Installation
+### Installation and running it
+
+if python Version is above 3.13:
+
+CD into the project directory
+
+python3.13 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install pygame
+python main.py
+
+Else:
+
+CD into the project directory
 
 pip install pygame
 
