@@ -1,48 +1,76 @@
-Boot.dev Python Project for learning Object oriented programming
-Because of checks from Boot.dev there are some built in code for saving a game_state file for correcting the assignment on boot.dev
+# Asteroids
 
-## Asteroids
-A clone of the classic Asteroids arcade game built with Python and Pygame.
+A clone of the classic **Asteroids** arcade game built with **Python** and **Pygame**.
 
-### Features
+This project was created as part of the Boot.dev Python course for learning object-oriented programming.
 
-Control a spaceship and navigate through an asteroid field
-Shoot asteroids to destroy them
-Large asteroids split into smaller, faster-moving asteroids when hit
-Game ends when the player collides with an asteroid
+Because of Boot.dev's automated checks, the project includes some built-in code for saving a `game_state` file used for assignment validation.
 
-### How to Play
+## Features
 
-Rotate: A / D 
+- Control a spaceship and navigate through an asteroid field
+- Shoot asteroids to destroy them
+- Large asteroids split into smaller, faster-moving asteroids when hit
+- The game ends when the player collides with an asteroid
 
-Thrust: W 
+## Controls
 
-Backwards: S
+- **A / D** — Rotate
+- **W** — Thrust forward
+- **S** — Move backward
+- **Space** — Shoot
 
-Shoot: Space
+## Requirements
 
-### Requirements
+- **Python 3.13 recommended**
+- **Pygame**
 
-Python version must be under version 3.14 because pygame doesn't support 3.14. Create a venv with python 3.13 and pygame if you want to run it.
+If your system uses Python 3.14, create a virtual environment with **Python 3.13** and install `pygame` there.
 
-Pygame
+## Installation
 
-### Installation and running it
+### If you have Python 3.14 or newer installed as default
 
-if python Version is above 3.13:
+First, change into the project directory:
 
-CD into the project directory
+```bash
+cd asteroid
+```
 
+Then create and activate a virtual environment with Python 3.13.
+
+#### Linux / macOS
+
+```bash
 python3.13 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install pygame
 python main.py
+```
 
-Else:
+#### Windows
 
-CD into the project directory
-
-pip install pygame
-
+```bash
+py -3.13 -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip
+python -m pip install pygame
 python main.py
+```
+
+### If you are already using Python 3.13
+
+Change into the project directory:
+
+```bash
+cd asteroid
+```
+
+Then install pygame and run the game:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install pygame
+python main.py
+```
