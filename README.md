@@ -1,4 +1,5 @@
 Boot.dev Python Project for learning Object oriented programming
+Because of checks from Boot.dev there are some built in code for saving a game_state file for correcting the assignment on boot.dev
 
 ## Asteroids
 A clone of the classic Asteroids arcade game built with Python and Pygame.
