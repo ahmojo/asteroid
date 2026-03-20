@@ -12,12 +12,18 @@ class Asteroid(CircleShape):
         pygame.draw.circle(screen, "white", self.position, self.radius, LINE_WIDTH)
     def update(self, dt):
         self.position += self.velocity * dt
+    
+    Score = 0
     def split(self):
         self.kill()
+        
         if self.radius <= ASTEROID_MIN_RADIUS:
+            self.Score += SCOREPLUS 
             return
         else:
+            
             log_event("asteroid_split")
+            self.Score += SCOREPLUS * 2
             random_angle = random.uniform(20, 50)
             new_vector = self.velocity.rotate(random_angle)
             new_vector2 = self.velocity.rotate(-random_angle)

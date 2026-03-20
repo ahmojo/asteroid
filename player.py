@@ -8,6 +8,7 @@ class Player(CircleShape):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
         self.cooldown = 0
+        self.Scores_Of_player = 0
     
     def rotate(self, dt):
         self.rotation += dt * PLAYER_TURN_SPEED
