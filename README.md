@@ -23,7 +23,7 @@ Shoot: Space
 
 ### Requirements
 
-Python 3.x
+Python version must be under version 3.14 because pygame doesn't support 3.14. Create a venv with python 3.13 and pygame if you want to run it.
 
 Pygame
 
